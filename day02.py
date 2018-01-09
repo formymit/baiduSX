@@ -84,8 +84,16 @@ def process_crawler():
     for p in process:
         p.join()
 
+def test():
+    '''
+    test git
+    :return:
+    '''
+    print('test git')
+
 if __name__ == '__main__':
     # origin
     # url0 = 'http://www.jianshu.com/u/81SQrr'
     # get_user(url0)
-    process_crawler()
+    # process_crawler()
+    test()
